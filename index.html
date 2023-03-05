@@ -1,0 +1,241 @@
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Grace Music</title>
+
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;700&display=swap" rel="stylesheet">
+
+  <!-- Icons -->
+  <script src="https://unpkg.com/feather-icons"></script>
+
+  <!-- Link CSS -->
+  <link rel="stylesheet" href="styles\style.css">
+</head>
+
+<body>
+  <!-- NavBar Start -->
+  <header>
+    <nav class="navbar">
+      <a href="#" class="navbar-logo"><img src="img\logo.png" /></a>
+
+      <div class="navbar-nav">
+        <a href="#home">Home</a>
+        <a href="#product">Feed</a>
+        <a href="#menu">Product</a>
+        <a href="#contact">Contact Us</a>
+        <a href="#about">About</a>
+      </div>
+
+      <div class="navbar-extra">
+        <a href="#" id="search"><i data-feather="search"></i></a>
+        <a href="#" id="cart"><i data-feather="shopping-cart"></i></a>
+        <img src="img/profil.jpg" class="profile-pic" onclick="toggleMenu()">
+        <a href="#" id="hamburger-menu"><i data-feather="menu"></i></a>
+      </div>
+
+      <div class="sub-menu-wrap" id="subMenu">
+        <div class="sub-menu">
+          <div class="user-info">
+            <img src="img/profil.jpg">
+            <h2>Jo Kevin Nathaniel</h2>
+          </div>
+          <hr>
+          <a href="#" class="sub-menu-link">
+            <img src="img/edit.svg">
+            <p>Edit Profile</p>
+          </a>
+          <a href="#" class="sub-menu-link">
+            <img src="img/settings.svg">
+            <p>Settings</p>
+          </a>
+          <a href="#" class="sub-menu-link">
+            <img src="img/help-circle.svg">
+            <p>Help & Support</p>
+          </a>
+          <a href="#" class="sub-menu-link">
+            <img src="img/log-out.svg">
+            <p>Logout</p>
+          </a>
+        </div>
+    </nav>
+  </header>
+  <!-- NavBar End -->
+
+  <main>
+    <div id="content">
+      <!-- Hero Section Start -->
+      <section class="hero" id="home">
+        <main class="content">
+          <h2>INTRODUCING THE</h2>
+          <h1>CORF GUITAR FLOW SERIES</h1>
+          <p>The new Flow Series is the result of expertly carried out research and tests to launch an innovative guitar
+            series most suited for fingerstyle artists and enthusiasts.</p>
+          <a href="" class="buy-now">Shop Now</a>
+        </main>
+      </section>
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+        <path fill="#010101" fill-opacity="10"
+          d="M0,160L26.7,181.3C53.3,203,107,245,160,229.3C213.3,213,267,139,320,112C373.3,85,427,107,480,101.3C533.3,96,587,64,640,74.7C693.3,85,747,139,800,170.7C853.3,203,907,213,960,192C1013.3,171,1067,117,1120,106.7C1173.3,96,1227,128,1280,133.3C1333.3,139,1387,117,1413,106.7L1440,96L1440,0L1413.3,0C1386.7,0,1333,0,1280,0C1226.7,0,1173,0,1120,0C1066.7,0,1013,0,960,0C906.7,0,853,0,800,0C746.7,0,693,0,640,0C586.7,0,533,0,480,0C426.7,0,373,0,320,0C266.7,0,213,0,160,0C106.7,0,53,0,27,0L0,0Z">
+        </path>
+      </svg>
+      <!-- Hero Section End-->
+
+      <article>
+        <!-- Product Section Start -->
+        <section id="product" class="product">
+          <h2>Grace <span>Feed</span></h2>
+
+          <div class="row-1">
+            <div class="about-img">
+              <img src="img/am-pro-II-feed-card-2023-v2@2x.jpg" alt="American Professional II">
+            </div>
+            <div class="content">
+              <h2>AMERICAN PROFESSIONAL II</h2>
+              <p>The American Professional II draws from more than sixty years of innovation, inspiration and evolution
+                to
+                meet the demands of today’s working player.</p>
+              <a href="#h2" class="view-more">View More</a>
+            </div>
+          </div>
+
+          <div class="row-2">
+            <div class="about-img">
+              <img src="img/av2.jpg" alt="American Vintage II">
+            </div>
+            <div class="content">
+              <h2>AMERICAN VINTAGE II</h2>
+              <p>Built to original specs, American Vintage II recreates our iconic Fender electric guitar and bass
+                models from
+                the ’50s, ’60s and ’70s – legendary classics that have transcended genre and generation to inspire the
+                greatest artists of all time.</p>
+              <a href="#h2" class="view-more">View More</a>
+            </div>
+          </div>
+        </section>
+        <!-- Product Section End-->
+
+        <!-- Menu Start-->
+        <section class="menu" id="menu">
+          <h2>Our <span>Product</span></h2>
+          <div class="row">
+            <div class="menu-card">
+              <h3 class="menu-card-tag">NEW</h3>
+              <a href="#img"><img src="img/bass-1.jpg" alt="Troy Sanders Precision Bass"></a>
+              <h3 class="menu-card-title">Troy Sanders Bass</h3>
+            </div>
+            <div class="menu-card">
+              <h3 class="menu-card-tag">NEW</h3>
+              <a href="#img"><img src="img/bass-2.jpg" alt="Gold Foil Jaxx Bass"></a>
+              <h3 class="menu-card-title">Gold Foil Jazz Bass</h3>
+            </div>
+            <div class="menu-card">
+              <h3 class="menu-card-tag">NEW</h3>
+              <a href="#img"><img src="img/guitar2.jpg" alt="Troy Sanders Precision Bass"></a>
+              <h3 class="menu-card-title">Gold Foil Telecaster</h3>
+            </div>
+            <div class="menu-card">
+              <h3 class="menu-card-tag">NEW</h3>
+              <a href="#img"><img src="img/sound.jpg" alt="Troy Sanders Precision Bass"></a>
+              <h3 class="menu-card-title">Tone Master Reverb</h3>
+            </div>
+          </div>
+        </section>
+        <!-- Menu End-->
+
+        <!-- Contact Start-->
+        <section id="contact" class="contact">
+          <h2>Contact <span>Us</span></h2>
+
+          <div class="row">
+            <iframe
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d127648.34322418127!2d116.8101861158367!3d-1.152829538856541!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2df1495986f04471%3A0x4030bfbcaf7e5a0!2sBalikpapan%20Utara%2C%20Balikpapan%20City%2C%20East%20Kalimantan!5e0!3m2!1sen!2sid!4v1677941027605!5m2!1sen!2sid"
+              allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" class="map"></iframe>
+
+            <form action="">
+              <div class="input">
+                <i data-feather="user"></i>
+                <input type="text" placeholder="Name">
+              </div>
+              <div class="input">
+                <i data-feather="mail"></i>
+                <input type="text" placeholder="Email">
+              </div>
+              <div class="input">
+                <i data-feather="phone"></i>
+                <input type="text" placeholder="Phone Number">
+              </div>
+              <button class="button">Send</button>
+            </form>
+          </div>
+          <p>Explore our list of quick links below for information regarding products and services.</p>
+          <div class="colomn">
+            <a href="maintenance.html">Warranty Information</a>
+          </div>
+          <div class="colomn">
+            <a href="maintenance.html">Product Support</a>
+          </div>
+          <div class="colomn">
+            <a href="maintenance.html">Product Registration</a>
+          </div>
+          <div class="colomn">
+            <a href="maintenance.html">Service Center Finder</a>
+          </div>
+        </section>
+        <!-- Contact End-->
+      </article>
+    </div>
+    <aside>
+      <section class="about" id="about">
+        <h2>About <span>Me</span></h2>
+        <div class="profile-card">
+          <div class="profile-picture">
+            <img src="img/profil.jpg" loading="lazy" />
+          </div>
+          <h2>Jo Kevin Nathaniel</h2>
+          <h3>Balikpapan, 26 September 2002</h3>
+          <h3>Institute Technology Of Kalimantan</h3>
+          <div class="social-media">
+            <a href="https://www.instagram.com/kevinnathaniel_10/"><i data-feather="instagram"></i></a>
+            <a href="https://www.facebook.com/jo.kevin.nathaniel"><i data-feather="facebook"></i></a>
+            <a href="https://mail.google.com/mail/u/0/?to=jhokkejunior857@gmail.com&fs=1&tf=cm"><i
+                data-feather="mail"></i></a>
+            <a href="https://github.com/Roxes619"><i data-feather="github"></i></a>
+          </div>
+        </div>
+      </section>
+    </aside>
+  </main>
+
+  <!-- Footer Start -->
+  <footer>
+    <div class="hyperlink">
+      <a href="#home">Home</a>
+      <a href="#product">Feed</a>
+      <a href="#menu">Product</a>
+      <a href="#contact">Contact Us</a>
+      <a href="#about">About</a>
+    </div>
+
+    <div class="credits">
+      <p>Made with ❤ by Jo Kevin Nathaniel | &copy; 2023</p>
+    </div>
+  </footer>
+  <!-- Footer End -->
+
+  <!-- Icons -->
+  <script>
+    feather.replace()
+  </script>
+
+  <!-- Javascript -->
+  <script src="script\index.js"></script>
+</body>
+
+
+</html>
