@@ -467,9 +467,7 @@ p {
 }
 
 .profile-picture > img {
-	height: 100%;
-	object-fit: cover;
-	border-radius: 100%;
+	height: 100px;
 }
 
 .profile-card h2, h3{
@@ -505,7 +503,7 @@ p {
 /* Footer */
 footer {
   background-color: #800000;
-  text-align: center;
+  text-align: left;
   padding: 1rem 0 2rem;
   margin-top: 3rem;
 }
